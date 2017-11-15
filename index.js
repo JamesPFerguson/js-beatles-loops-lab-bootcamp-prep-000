@@ -15,4 +15,11 @@ function johnLennonFacts(facts) {
   return factR
 }
 
-function iLoveTheBeatles
+function iLoveTheBeatles(n) {
+  var genRay = []
+  do {
+    genRay.push("I love the Beatles!")
+    n++
+  }
+  while (n < 15)
+}
